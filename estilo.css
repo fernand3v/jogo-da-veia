@@ -1,7 +1,13 @@
 body {
     text-align: center;
+    background-color: #404452;
 }
-
+h1 {
+    font-family:fantasy;
+    font-size: 72px;
+    color: green;
+    text-decoration: underline;
+}
 .quadrado {
     text-align: center;
     width: 50px;
@@ -13,8 +19,8 @@ body {
     cursor: pointer;
     color: #eee;
 }
-
 .jogador, .vencedor {
+    color: #fff;
     font-size: 30px;
     margin-top: 10px;
 }
@@ -24,5 +30,5 @@ button {
     width: 100px;
     height: 30px;
     background: #eee;
-    cursor: pointer;
+    cursor: pointer; 
 }
